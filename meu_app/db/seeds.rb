@@ -7,3 +7,11 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Post.create!([
+    { title: "1 ou 3?", content: "3" }
+])
+
+Comment.create!([
+    { content: "Hmmm", post_id: "2"}
+])
